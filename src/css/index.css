@@ -1,0 +1,916 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&display=swap');
+@import url(/src/css/variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
+    html, body{
+        overflow-x: hidden;
+    }
+    
+    .Navbar{
+        height: 115px;
+        
+        overflow: hidden;
+    }
+
+    .Navbar img{
+        transform: translateX(-220px);
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+
+   .botonMovil{
+    display: none;
+   }
+
+    .navbar ul{
+        padding-left: 17%;
+    }
+
+    .navbar li{
+        padding-right: 10%;
+    }
+
+    .navbar .a{
+        text-decoration: none;
+        color: lightgray;
+        transition: 0.5s;
+    }
+
+    .navbar .a:hover{
+        color: white;
+    }
+   
+    .seccion{
+        height: 100vh;
+        
+        box-sizing: border-box;
+    }
+
+    .uno{
+       
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ADA996;  /* fallback for old browsers */
+        background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    }
+
+    .dos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .tres{
+        height: 210vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        background: #ADA996;  /* fallback for old browsers */
+        background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+        margin-bottom: -10px;
+    }
+    
+    
+    .carousel{
+        height: 90%;
+        width: 100%;
+        top: 65px;
+        justify-content: center;
+             
+    }
+
+    
+
+
+
+    .sec2Container{
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        text-justify: distribute;
+        
+    }      
+
+    .sec2Container h1{
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: 3px 2px 1px black;
+        color: greenyellow;
+    }
+
+    .contBoton{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .envios a{
+        text-decoration: none;
+        color: greenyellow;
+        text-shadow: 3px 2px 1px black;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .envios a:hover{
+        height: 7em;
+        width: 4em;
+        transition: 1s;
+        color: rgb(255, 190, 70);
+    }
+    
+    
+    html p{
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+        text-shadow: 2px 2px black;
+        color: white;
+    }
+
+   
+    .botonNeuro{
+        width: 5em;
+        height: 2em;
+        font-size: 1.7em;
+        border-radius: 5em;
+        border: none;
+        outline: none;
+        box-shadow: -5px -5px 10px var(--clr-light),
+                     9px 9px 14px var(--clr-dark);
+        padding: 15px 20px 15px 20px;
+    }
+
+   
+    .sec3card{
+        width: 100%;
+      height: 100%;
+      
+    }
+
+    .card{
+        left: 20%;
+        
+    }
+   
+ 
+    .grad{
+        display: flex;
+        justify-content: center;
+        top: 6%;
+        width: 60%;
+        border-radius: 15px;
+        box-shadow: -15px -15px 15px, rgba(255, 255, 255, 0.2),
+                    15px 15px 15px, rgba(0, 0, 0, 0.1);
+    }
+
+    .overlay{
+        height: 100px;
+    }
+
+    .grad img{
+        width: 100%;
+        height: 35vh;
+        top: 100px;
+    }
+
+   .contBoton2{
+    width: max-content;
+    left: 20%;
+    margin-top: 5%;
+    transform: translateY(7em);
+   }
+
+.cardTitulo{
+    text-shadow: 3px 2px 1px black;
+    color: greenyellow;
+    
+}
+
+.card a{
+    
+    text-decoration: none;
+    border-radius: 5em;
+    box-shadow: -5px -5px 10px rgba(149, 149, 149, 0.348),
+                 9px 9px 14px var(--clr-dark);
+    padding: 15px 40px 15px 40px;
+    background-color: rgb(49, 109, 238);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: larger;
+    font-weight: 600;
+    text-shadow: 2px 1px rgb(53, 79, 89);
+    }
+    
+    .card a:hover{
+        background-color: rgb(105, 148, 241);
+        color: white;
+        font-size: larger;
+        transition: 0.8s;
+        text-shadow: 3px 2px black;
+        
+    }
+    
+    .dosP{
+        height: 100vh;
+        margin-bottom: -10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .dosP h1{
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: 3px 2px 1px black;
+        color: greenyellow;
+    }
+
+    .dosP ul{
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+        text-shadow: 2px 2px black;
+        color: white;
+    }
+
+    .contenedorPago{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .dosP img{
+        width: 12em;
+    }
+
+/*Footer*/
+    footer{
+    
+    
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    footer .social_icon,
+    footer .menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        flex-wrap: wrap;
+    }
+
+    footer .social_icon li,
+    footer .menu li{
+        list-style: none;
+    }
+
+    footer .social_icon li a,
+    footer .menu li a {
+        font-size:  2em;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+    }
+
+    footer .social_icon li a:hover{
+        transform: translateY(-10px);
+        color: rgb(154, 250, 154);
+    }
+
+    footer .menu li a {
+        font-size: 1.2em;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        text-decoration: none;
+        opacity: 0.75;
+    }
+
+    footer .menu li a:hover{
+        opacity: 1;
+    }
+
+    footer p{
+        color: #fff;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+    footer p a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    footer .wave{
+        position: absolute;
+        top: -100px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url(/public/img/wave.png);
+        background-size: 1000px 100px;
+    }
+
+    footer .wave#wave1{
+        z-index: 1000;
+        opacity: 1;
+        bottom: 0;
+        animation: animateWave 4s linear infinite;
+    }
+
+    footer .wave#wave2{
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: animateWave_02 4s linear infinite;
+    }
+
+    footer .wave#wave3{
+        z-index: 1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: animateWave 3s linear infinite;
+    }
+
+    footer .wave#wave4{
+        z-index: 999;
+        opacity: 0.7;
+        bottom: 20px;
+        animation: animateWave_02 3s linear infinite;
+    }
+
+    @keyframes animateWave{
+        0%{
+            background-position-x: 1000px;
+        }
+        100%{
+            background-position-x: 0px;
+        }
+    }
+
+    @keyframes animateWave_02{
+        0%{
+            background-position-x: 0px;
+        }
+        100%{
+            background-position-x: 1000px;
+        }
+    }
+
+    @keyframes animateWave_03{
+        0%{
+            background-position-x: 1000px;
+        }
+        100%{
+            background-position-x: 0px;
+        }
+    }
+
+    @keyframes animateWave_04{
+        0%{
+            background-position-x: 1000px;
+        }
+        100%{
+            background-position-x: 0px;
+        }
+    }
+
+
+   
+    .una{
+        height: 150vh;
+        margin-top: 115px;
+        background: #ADA996;  /* fallback for old browsers */
+        background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    }
+
+   
+    .Productos{
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .conteTitulo{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+
+    .tituloProductos{
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: 3px 2px 1px black;
+        color: greenyellow;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .tarjeta{
+      position: relative;
+      width: 600px;
+      height: 350px;
+      
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      transition: 0.5s;
+    }
+    
+    .tarjeta .circulo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    
+    .tarjeta .circulo::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #31bcd848;
+      clip-path: circle(120px at center);
+      transition: 0.5s;
+    }
+    
+    .tarjeta:hover .circulo:before{
+      background: rgb(77, 157, 255);
+      clip-path: circle(400px at center);
+    }
+    
+    .tarjeta img{
+      position: absolute;
+      top:  50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 300px;
+      pointer-events: none;
+      transition: 0.5s;
+    }
+    
+    .tarjeta:hover img{
+      left: 72%;
+      height: 300px;
+    }
+
+    .tarjeta .conTarjeta{
+        position: relative;
+        width: 50%;
+        left: 20%;
+        padding: 20px 20px 20px 40px;
+        transition: 0,5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tarjeta:hover .conTarjeta{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .tarjeta .conTarjeta h3{
+        color: #fff;
+        font-family: 'Bebas Neue', cursive;
+        text-shadow: 3px 2px 1px black;
+        font-size: 1.5em;
+        line-height: 1em;
+        
+        margin-bottom: 10px;
+    }
+
+    .tarjeta .conTarjeta p{
+        color: #fff;
+        margin-right: 100px;
+    }
+
+    .counter button{
+        position: relative;
+        color: #fff;
+        padding: 4px 20px;
+        border-radius: 5em;
+        border: none;
+        outline: none;
+        box-shadow: -5px -5px 10px var(--clr-light),
+                     9px 9px 14px var(--clr-dark);
+        background: #fff;
+        color: #111;
+        margin-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700;
+        text-shadow: 3px 2px 1px white;
+        font-size: 1.1em;
+    }
+
+    .counter span{
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 700;
+        
+        font-size: 1.3em;
+    }
+
+    .btnCambiarPag{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnCambiarPag button{
+        position: relative;
+        color: #fff;
+        padding: 4px 20px;
+        border-radius: 5em;
+        border: none;
+        outline: none;
+        box-shadow: -5px -5px 10px rgba(214, 200, 200, 0.503),
+                     9px 9px 14px var(--clr-dark);
+        
+        color: #111;
+        margin-left: 25px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700;
+        text-shadow: 3px 2px 1px white;
+        font-size: 1.1em;
+    }
+
+
+/*Media Queries*/
+@media only screen and (max-width: 2002px){
+
+.tarjeta .conTarjeta p{
+margin-right: 300px;
+}
+
+.tarjeta .conTarjeta a{  
+    margin-top: 0px;
+}
+
+.tarjeta:hover img{
+    left: 80%;
+    height: 250px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1880px){
+    
+        .tarjeta:hover p{
+        
+        text-justify: inter-cluster;
+        display: inline;
+        
+        }
+    
+        .tarjeta:hover a{
+            margin-top: 20px;
+        }
+
+        .tarjeta .conTarjeta{ 
+            left: 0%;
+            padding: 20px 20px 20px 40px;
+            
+        }
+
+        .tarjeta:hover img {
+        top: 50%;
+        
+        left: 70%;
+        height: 200px
+        
+    };
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px){
+
+    .Navbar img{
+       
+        transform: translateX(0);
+        transform: translateY(0px);
+         height: 100px;
+         width: 330%;
+         object-fit: cover;
+     }
+ 
+     .imgNavMovil img{
+         height:250px;
+         zoom: 130%;
+         margin-top: -70px;
+         margin-right: -100px;
+         margin-left: -20px;
+         margin-bottom: -100px;
+         overflow: hidden;
+     }
+ 
+     .hamburguesa .a{
+         font-family: 'Dosis', sans-serif;
+         font-size: x-large;
+         text-shadow: 2px 2px darkcyan;
+         color: white;
+         text-decoration: none;
+     }
+         
+ 
+     .mobileNavBody{
+         background: #000046;  /* fallback for old browsers */
+         background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     }
+
+    .dos{
+        height: 140vh;
+    }
+
+
+    .sec3card{
+        top: 0;
+        scale: 0.85;
+        margin-top: -100px;
+    }
+
+    .contBoton2{
+        margin-top: -60px;
+    }
+    
+
+    .dosP{
+        height: 150vh;
+    }
+    .una{
+        height: 230vh;
+        padding-right: 200px; 
+    }
+
+    
+    .conteTitulo{
+        margin-left: 300px;
+    }
+
+    .btnCambiarPag{
+        margin-left: 200px;
+    }
+
+}
+
+
+
+@media (max-width: 769px){
+
+ 
+    .Navbar img{
+       
+       transform: translateX(0);
+       transform: translateY(0px);
+        height: 100px;
+        width: 330%;
+        object-fit: cover;
+    }
+
+    .imgNavMovil img{
+        height:250px;
+        zoom: 130%;
+        margin-top: -70px;
+        margin-right: -100px;
+        margin-left: -20px;
+        margin-bottom: -100px;
+        overflow: hidden;
+    }
+
+    .hamburguesa .a{
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+        text-shadow: 2px 2px darkcyan;
+        color: white;
+        text-decoration: none;
+    }
+        
+
+    .mobileNavBody{
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .uno{
+        height: 50vh;
+        
+    }
+
+    .una{
+        height: max-content;
+    }
+
+    .dos{
+        margin-top: 100px;
+    }
+
+    .Productos{
+        height: max-content;
+        margin-bottom: 200px;
+    }
+    
+    .tarjeta:hover .circulo:before{
+        height: 400px;
+      }
+    .carousel {
+        top: 140px;
+        height: 500px;
+        
+    }
+
+    .carousel img{
+        height: 500px;
+    }
+
+    .acercaDe{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .envios{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .contBoton{
+        display: none;
+    }
+
+    .preferir{
+        justify-content: center;
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .sec2Container h1{
+        font-size: 25px;
+    }
+
+    .sec2Container p{
+        font-size: 15px;
+        margin: 0 50px 0 50px;
+        }
+
+    .contBoton {
+        transform: translate(60px, -60px);
+    }
+
+
+    .botonMovil{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .botonMovil a{
+        text-decoration: none;
+        color: greenyellow;
+        text-shadow: 3px 2px 1px black;
+        font-family: 'Bebas Neue', cursive;
+        padding: 10px 0 0 10px;
+    }
+
+    .botonMovil a:hover{
+        color: greenyellow;
+    }
+
+    .tres{
+        height: 220vh;
+    }
+    
+
+    .grad{
+        width: 100%;
+        left: 15%;
+    }
+
+    .contBoton2{
+        transform: translateY(2em);
+    }
+
+    .card{
+        width: 70%;
+        margin-bottom: 100px;
+    }
+    
+    
+    .tarjeta:hover{
+        height: 300px;
+        width: 400px;
+        left: 100px;
+    }
+    
+
+    .tarjeta:hover .conTarjeta{
+        
+        margin-left: 10px;
+    }
+
+    .tarjeta:hover img{
+        
+        transition: 0.7s;
+    }
+
+    .botonMenos{
+        margin-left: 20px;
+    }
+
+
+    .dosP{
+        height: 130vh;
+    }
+
+    .dosP p{
+        scale: 0.95;
+    }
+
+    .dosP ul{
+        scale: 0.95;
+    }
+
+    .dosP ul li a{
+        text-decoration: none;
+        color: greenyellow;
+    }
+
+    .contenedorPago{
+        scale: 0.85;
+    }
+
+    .btnCambiarPag{
+    height: 50px;
+    width: 60%;
+   
+    margin-right: 100px;
+    justify-content: center;
+    
+    margin-left: 90px;
+    scale: 0.77;
+    }
+
+    .btnCambiarPag button{
+        scale: 0.9;
+        bottom: 200px;
+    }
+
+
+}
+
+@media (max-height: 810px){
+    .dos{
+        margin-top: 204px;
+    }
+}
+
+
+
+
