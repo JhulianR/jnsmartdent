@@ -24,7 +24,7 @@
     .Navbar img{
         transform: translateX(-220px);
         height: 100%;
-        width: 100%;
+        width: 90%;
         object-fit: contain;
         
     }
@@ -34,7 +34,7 @@
    }
 
     .navbar ul{
-        padding-left: 17%;
+        padding-left: 15%;
     }
 
     .navbar li{
@@ -45,10 +45,19 @@
         text-decoration: none;
         color: lightgray;
         transition: 0.5s;
+        margin-right: 50px;
     }
 
     .navbar .a:hover{
         color: white;
+    }
+
+    .navbar .a1{
+        text-decoration: none;
+        color: lightgray;
+        transition: 0.5s;
+        margin-top: 7px;
+        margin-right: 50px;
     }
    
     .seccion{
@@ -625,15 +634,25 @@ margin-right: 300px;
     
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1400px){
+@media (max-width: 1569px){
+
+    .logoMarca{
+        margin-left: 100px;
+        
+    }
+
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1399px){
 
     .Navbar img{
        
         transform: translateX(0);
         transform: translateY(0px);
-         height: 100px;
-         width: 330%;
-         object-fit: cover;
+        height: 100px;
+        width: 330%;
+        object-fit: cover;
      }
  
      .imgNavMovil img{
@@ -652,6 +671,7 @@ margin-right: 300px;
          text-shadow: 2px 2px darkcyan;
          color: white;
          text-decoration: none;
+         
      }
          
  

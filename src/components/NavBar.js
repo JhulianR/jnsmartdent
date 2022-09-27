@@ -19,7 +19,7 @@ function NavBar() {
     <Navbar key={expand} expand={expand} expanded={expanded} className='Navbar' fixed="top" collapseOnSelect bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/index.html">
-        <NavLink onClick={() => setExpanded(false)} to="/inicio" className="a">
+        <NavLink onClick={() => setExpanded(false)} to="/inicio" className="logoMarca">
         <img
               src="./img/logoNav.png"
               
@@ -49,11 +49,9 @@ function NavBar() {
               <Offcanvas.Body>
           <Nav className="justify-content-end flex-grow-1 pe-3 hamburguesa">
             <Nav.Link onClick={() => setExpanded(false)}><NavLink to="/inicio" className="a"> Inicio </NavLink></Nav.Link> 
-            <Link onClick={() => setExpanded(false)} to="/inicio#sobreNos" className="a">Sobre Nosotros </Link>
+            <Link onClick={() => setExpanded(false)} to="/inicio#sobreNos" className="a1">Sobre Nosotros </Link>
             <Nav.Link onClick={() => setExpanded(false)}> <NavLink to="/productos" className="a"> Productos </NavLink></Nav.Link> 
             <Nav.Link onClick={() => setExpanded(false)}> <NavLink to="/pagos" className="a"> Pagos </NavLink></Nav.Link> 
-            
-            
           </Nav>
           </Offcanvas.Body>
           </Navbar.Offcanvas>
