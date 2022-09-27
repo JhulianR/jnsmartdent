@@ -30,7 +30,7 @@ const ContenedorProductosDos = () => {
                             <h3 className="">{ProductosDos.nombre}</h3>
                             <p>Precio: {ProductosDos.precio}</p>
                             <div className="counter">
-                            <NavLink to="/pagos"> <button>Comprar</button> </NavLink>
+                            <NavLink to="/whatsapp"> <button>Comprar</button> </NavLink>
                             </div>
                             
                         </div>
