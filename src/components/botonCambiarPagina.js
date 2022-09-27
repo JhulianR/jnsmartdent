@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const paginas = [1,2,3,4];
+
 
 
 function BotonPagina() {
@@ -12,25 +12,25 @@ function BotonPagina() {
             
             <NavLink to='/productos'>
             <button>
-                {paginas[0]}
+                1
             </button>
             </NavLink>
 
             <NavLink to='/productos/2'>
             <button>
-            {paginas[1]}
+            2
             </button>
             </NavLink>
 
             <NavLink to='/productos/3'>
             <button>
-            {paginas[2]}
+           3
             </button>
             </NavLink>
 
             <NavLink to='/productos/4'>
             <button>
-            {paginas[3]}
+            4
             </button>
             </NavLink>
 
