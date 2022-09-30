@@ -671,10 +671,9 @@ margin-right: 300px;
          text-shadow: 2px 2px darkcyan;
          color: white;
          text-decoration: none;
-         
      }
          
- 
+
      .mobileNavBody{
          background: #000046;  /* fallback for old browsers */
          background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
@@ -723,11 +722,11 @@ margin-right: 300px;
  
     .Navbar img{
        
-       transform: translateX(0);
-       transform: translateY(0px);
-        height: 100px;
-        width: 330%;
-        object-fit: cover;
+       display: none;
+    }
+
+    .logoMarca{
+        display: none;
     }
 
     .imgNavMovil img{
@@ -747,7 +746,15 @@ margin-right: 300px;
         color: white;
         text-decoration: none;
     }
-        
+
+    
+    .hamburguesa .a1{
+        font-family: 'Dosis', sans-serif;
+        font-size: x-large;
+        text-shadow: 2px 2px darkcyan;
+        color: white;
+        text-decoration: none;
+    }
 
     .mobileNavBody{
         background: #000046;  /* fallback for old browsers */
